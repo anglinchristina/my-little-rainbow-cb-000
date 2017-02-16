@@ -19,7 +19,7 @@ Hyper Text Markup Language, or HTML, is a way to demarcate a document into diffe
     - Classes can be used as many times as you want. ex: `<div class="a-less-special-div"></div>`.
   - Elements nested inside other elements are called children.
     - Children inherit attributes from their parents.
-    - Don't nest everything. Here's a [website](http://sewingandembroiderywarehouse.com/embtrb.htm) that nested everything. Don't do that!
+    - Don't nest everything. 
   - Elements next to one another are siblings.
     - Siblings do not inherit from one another, but are important for selecting in CSS.
 
@@ -46,7 +46,7 @@ Cascading Style Sheets, or CSS, is a language created to style an HTML document 
 Here's an example of CSS styling:
 ```css
   * {
-    border-top-color: red;  /* color in CSS refers to font color */
+    color: red;  /* color in CSS refers to font color */
   }  /* all elements will have red font */
 ```
 
@@ -82,7 +82,7 @@ Hex colors begin with `#` and are followed by, generally, 6 numbers, but some of
 
 Hex colors work by creating Red, Green, Blue (RGB) values.  Traditional RGB colors are on a scale of 0 to 255 for each of the three colors in the spectrum.  Hex colors are considered true colors since it can represent ~16 million colors, but your eye can only see 10 million of those.  So `#000000` translates to black since 0 reds, 0 green, 0 blues represents the absence of all colors, and `#ffffff` makes white since 255 reds, 255 greens, and 255 blues is the maximum of each of the colors.  
 
-Hex colors can be shortened to just three numbers since each RGB value is the same for each digit. So `#11dd99` can be written as `#1d9`.
+Hex colors can be shortened to just three numbers when each RGB value is the same for each digit. So `#11dd99` can be written as `#1d9`.
 
 ####Coloring the Rainbow
 To get roygbiv onto our rainbow we'll need seven hex colors.
@@ -104,6 +104,10 @@ And to give that id some CSS attributes we'll go into `main.css`, select the id,
 
 So to make sure the rainbow isn't so monochromatic you now need to repeat the above steps with the final six colors of the rainbow, and when you do you should have something like [this](http://i0.kym-cdn.com/photos/images/original/000/118/087/2468904593_6a7c692ab6.jpg).
 
+<<<<<<< HEAD
 When your finshed, please <a href="https://www.mozilla.org/en-US/firefox/new/" target="_blank">install Firefox</a> if you haven't already as it is required for the screenshot tests to run. Then, type `learn` command from Terminal to run local tests.
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/my-little-rainbow'>My Little Rainbow</a> on Learn.co and start learning to code for free.</p>
+=======
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/my-little-rainbow' title='My Little Rainbow'>My Little Rainbow</a> on Learn.co and start learning to code for free.</p>
+>>>>>>> your_solution_branch_name
